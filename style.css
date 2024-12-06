@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image : url(https://t3.ftcdn.net/jpg/07/66/54/68/360_F_766546867_N8453t06UASZeZnC4khlIDkO3kpaxZFN.jpg) ;
+  background-size: cover;
+  background-position: center-center ;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.section-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.btn {
+  padding: 1em 2em;
+  border-radius: 5em;
+  background-color: #817d8a;
+  color: #fcfcfc;
+}
+.btn-focus {
+  background-color: #400642;
+  color: #ffffff;
+}
+.time-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  font-size: xx-large;
+}
+#time {
+  text-align: center;
+  color: #33023a;
+  font-size: 5em;
+  font-weight: 600;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+#btn-start,
+#btn-pause {
+  padding: 1em 2em;
+  border-radius: 5em;
+  cursor: pointer;
+  background-color: #c235df;
+}
+#btn-reset {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 2em;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
